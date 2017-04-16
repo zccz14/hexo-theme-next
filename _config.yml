@@ -11,10 +11,10 @@ keywords: "Hexo, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2016
 
 # icon between year and author @Footer
 authoricon: heart
@@ -38,10 +38,12 @@ seo: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
+  about: /about
   archives: /archives
   tags: /tags
+  demo: /demo
+  works: /works
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -62,7 +64,8 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-
+  demo: coffee
+  works: book
 
 
 
@@ -71,8 +74,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -119,7 +122,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: Courier New
     size:
 
 
@@ -133,9 +136,12 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
-
+  GitHub: https://github.com/zccz14
+  CSDN: http://blog.csdn.net/zccz14
+  知乎: http://www.zhihu.com/people/zccz14
+  npm: https://www.npmjs.com/~zccz14
 
 # Social Links Icons
 # Icon Mapping:
@@ -154,7 +160,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: images/avatar.png
 
 
 # Table Of Contents in the Sidebar
@@ -198,12 +204,21 @@ sidebar:
   scrollpercent: false
 
 
-# Blog rolls
-#links_title: Links
+# Blogrolls
+links_title: 友情链接
 #links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  栗子栗子: https://igoodvegetablea.github.io/
+  Mg: https://xjtumg.github.io/
+  Iridium: http://192217.space/
+  Hobo Chen: https://hobochen.github.io/
+  Caesium Liu: https://lzed.github.io/
+  lingsamuel: https://lingsamuel.github.io/
+  aak1247: https://aak1247.github.io/
+  XJTU ACM Board: https://board.xjtuacm.com/
+  CyStudy: https://cystudy.github.io/
+
 
 
 # ---------------------------------------------------------------
@@ -304,7 +319,7 @@ disqus:
 #hypercomments_id:
 
 # Gentie productKey
-#gentie_productKey:
+gentie_productKey: 29210a467cd14e66ba8d952d5876d8e3
 
 # changyan
 changyan:
