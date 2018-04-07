@@ -39,7 +39,8 @@ seo: false
 menu:
   home: /
   categories: /categories
-  about: /about
+#  about: /about
+  cv: /cv
   archives: /archives
   tags: /tags
   demo: /demo
@@ -57,7 +58,8 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
-  about: user
+  #about: user
+  cv: user
   categories: th
   schedule: calendar
   tags: tags
